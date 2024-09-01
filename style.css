@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://www.healthyplace.com/sites/default/files/2020-11/making-friends-with-someone.jpg)
+    center / cover no-repeat fixed;
+}
+h2,
+h3 {
+  color: rgb(33, 28, 28);
+  font-size: 25px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  height: 200px;
+  padding: 35px;
+  font-size: 15px;
+  border: 1px solid #4e4e4e;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px;
+  margin-top: 150px;
+  /* filter: blur(8px); */
+}
+#yes,
+#no {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+#yes {
+  background-color: green;
+  transition: all 0.1s ease;
+}
+#no {
+  background-color: red;
+  transition: all 0.1s ease;
+}
+#yes:hover {
+  transform: scale(1.2);
+  color: white;
+  border: 2px solid white;
+}
+#no:hover {
+  transform: scale(1.2);
+  color: white;
+  border: 2px solid white;
+}
